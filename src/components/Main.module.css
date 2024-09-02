@@ -35,21 +35,25 @@
   font-family: "mu-me";
   color: #810ca8;
 }
-
+.min {
+  width: 9rem;
+}
 .even {
   color: orange !important;
+  width: 8rem;
 }
 .odd {
   color: green !important;
+  width: 8rem;
 }
-.main h2{
-    color: #810ca8;
-    background-color: #2D033B;
-    padding: .8rem 1.8rem;
-    margin-top: 0.8rem;
-    border-radius: 1rem;
-    -webkit-border-radius: 1rem;
-    -moz-border-radius: 1rem;
-    -ms-border-radius: 1rem;
-    -o-border-radius: 1rem;
+.main h2 {
+  color: #810ca8;
+  background-color: #2d033b;
+  padding: 0.8rem 1.8rem;
+  margin-top: 0.8rem;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
 }
