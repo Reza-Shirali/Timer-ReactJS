@@ -1,0 +1,55 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  min-height: 55vh;
+  background-color: #bb9ab1;
+  margin: 4rem auto;
+  width: 100%;
+  border-radius: 1.2rem;
+  -webkit-border-radius: 1.2rem;
+  -moz-border-radius: 1.2rem;
+  -ms-border-radius: 1.2rem;
+  -o-border-radius: 1.2rem;
+  padding: 1rem;
+}
+.main p {
+  font-family: "mu-me";
+  font-size: 5rem;
+  color: #810ca8;
+  user-select: none;
+}
+.timer {
+  margin-top: 3rem;
+  font-size: 8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  user-select: none;
+}
+.min,
+.sec,
+.timer span {
+  font-family: "mu-me";
+  color: #810ca8;
+}
+
+.even {
+  color: orange !important;
+}
+.odd {
+  color: green !important;
+}
+.main h2{
+    color: #810ca8;
+    background-color: #2D033B;
+    padding: .8rem 1.8rem;
+    margin-top: 0.8rem;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
