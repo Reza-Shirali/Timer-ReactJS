@@ -28,8 +28,15 @@ body {
   font-family: "mu";
   font-size: 1.6rem;
   padding: 4rem;
-  width: 120rem;
+  max-width: 120rem;
   min-height: 100vh;
   margin: auto;
   background-color: #021526;
 }
+
+@media screen and (max-width:700px) {
+  body {
+    padding: 2rem;
+  }
+}
+

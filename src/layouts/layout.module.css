@@ -20,3 +20,16 @@
 .footer {
   justify-content: center;
 }
+@media screen and (max-width:515px) {
+  .header h1{
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width:376px) {
+  .icon{
+    font-size: 4rem;
+  }
+  .header h1{
+    font-size: 1.5rem;
+  }
+}
